@@ -1,6 +1,6 @@
 node {
   stage('Clone Github repository') {
-     git credentialsId: 'github-creds', url: 'https://github.com/kkprbr/jenkins-docker-react-app.git'
+     git credentialsId: 'git-creds', url: 'https://github.com/kkprbr/jenkins-docker-react-app.git'
 }
   
 stage('Build image') {
