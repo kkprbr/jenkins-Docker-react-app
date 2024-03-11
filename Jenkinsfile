@@ -20,6 +20,6 @@ stage('Stop and Kill existing container with same name if any') {
 }
 
 stage('Run the container Locally on the Jenkins server') {
-    sh "docker run -itd --name react-app -p 80:81 cloudwithraghu/react-app:latest"
+    sh "docker run -itd --name react-app -p 80:81 9963565745/react-app:latest"
     }
 }
